@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Staatliches'; */
+    margin: 0px;
+    font-weight: auto;
+}
+.img-bckgnd{
+    z-index: -1;
+    position: fixed;
+}
+.header{
+    height: 120px;
+    /* background-color: var(--primary-bcolor); */
+    /* background-color: #f3f3f3; */
+    margin: 0px 0px;
+    color: #f1f6f9;
+    z-index: -1;
+    position: fixed;
+}
+.img-header{
+    padding: 25px 0px 0px 130px;
+}
+.first-space{
+    height: 30vh;
+}
+.second-space{
+    height: 12vh;
+}
+
+.tagline{
+    margin-left: 18vw;
+    position: fixed;
+}
+.flex-container {
+    margin: auto;
+    padding: 30px 0px;
+    align-content: center;
+    width: fit-content;
+    position: fixed;
+    margin-left: 18vw;
+}
+#txt-input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #e65d2b;
+}
+.button{
+    background-color: #e65d2b;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* footer{ */
+    /* color: white;background-color: #e65d2b; */
+    /* margin: 0px 0px;padding: 30.5px 0px; */
+/* } */
+
+/* .button:hover {
+    background-color: var(--primary-bcolor);
+    padding: 13px 33px;
+    color: white;
+    border-radius: 4px;
+} */
+
+
+.meal-name{
+    /* padding: 1.5rem 0.5rem;  */
+    margin-bottom: 15px;
+}
+.meal-name h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.meal-card{
+    background-color: #e65d2b;
+    padding: 20px;
+    width: 260px;
+    border-radius: 5%;
+}
+.meal-img{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    margin-left: 45%;
+    margin-top: 5%;
+    border: 8px solid #ebebeb;
+    /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+    box-shadow:  10px 10px 35px #252525c5;
+}
+.recipe-link {
+    /* text-align: right; */
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 0px 0px 0px 155px;
+}
+.meal-name > p{
+    margin: 5px;
+    line-height: 20px;
+    color: #292929;
+    margin-bottom: 35px;
+}
+#food-list{
+    margin-left: 55vw;
+}
